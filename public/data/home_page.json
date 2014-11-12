@@ -1,0 +1,64 @@
+{
+	"nodes" : [
+		{
+			"name" : "",
+			"group" : "1"
+		},
+		{
+			"name" : "Twitter",
+			"group" : "2"
+		},
+		{
+			"name" : "Facebook",
+			"group" : "3"
+		},
+		{
+			"name" : "GitHub",
+			"group" : "4"
+		},
+		{
+			"name" : "Instagram",
+			"group" : "5"
+		},
+		{
+			"name" : "tumblr",
+			"group" : "6"
+		},
+		{
+			"name" : "Spotify",
+			"group" : "7"
+		}
+	],
+	"links" : [
+		{
+			"source" : 0,
+			"target" : 1,
+			"value" : 10
+		},
+		{
+			"source" : 0,
+			"target" : 2,
+			"value" : 10
+		},
+		{
+			"source" : 0,
+			"target" : 3,
+			"value" : 10
+		},
+		{
+			"source" : 0,
+			"target" : 4,
+			"value" : 10
+		},
+		{
+			"source" : 0,
+			"target" : 5,
+			"value" : 10
+		},
+		{
+			"source" : 0,
+			"target" : 6,
+			"value" : 10
+		}
+	]
+}
