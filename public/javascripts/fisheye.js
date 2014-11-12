@@ -1,5 +1,5 @@
 (function() {
-  var circleSize = 90;
+  var circleSize = 100;
 
   d3.fisheye = {
     scale: function(scaleType) {

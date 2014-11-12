@@ -13,7 +13,7 @@
 			"group" : "3"
 		},
 		{
-			"name" : "GitHub",
+			"name" : "Github",
 			"group" : "4"
 		},
 		{
@@ -21,12 +21,8 @@
 			"group" : "5"
 		},
 		{
-			"name" : "tumblr",
-			"group" : "6"
-		},
-		{
 			"name" : "Spotify",
-			"group" : "7"
+			"group" : "6"
 		}
 	],
 	"links" : [
