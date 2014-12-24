@@ -1,0 +1,69 @@
+.circle {
+	width: 200px;
+	height: 200px;
+	background-size: 200px auto;
+	border-radius: 50% 50% 50% 50%;
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.circle:hover {
+	position: relative;
+	-webkit-animation: floatup 1s;
+	bottom: 40px;
+}
+
+@-webkit-keyframes floatup {
+	from {
+		bottom: 0px;
+	}
+	to {
+		bottom: 40px;
+	}
+}
+
+#me {
+	background-image: url('/images/eben.png');
+}
+
+#facebook {
+	background-image: url('/images/facebook.png');
+}
+
+#twitter {
+	background-image: url('/images/twitter.png');
+}
+
+#instagram {
+	background-image: url('/images/instagram.png');
+}
+
+#spotify {
+	background-image: url('/images/spotify.png');
+}
+
+#github {
+	background-image: url('/images/github.png');
+}
+
+#circle-container {
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+#title {
+	position: absolute;
+	margin-left: 25px;
+	margin-bottom: 15px;
+	bottom: 0;
+	font-size: 50px;
+}
+
+body {
+	height: 100vh;
+	font-family: 'Slabo 13px' serif;
+}
