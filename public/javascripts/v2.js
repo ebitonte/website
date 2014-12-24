@@ -39,9 +39,11 @@ $('.circle').hover(
 			} else if (id == 'spotify') {
 				$('body').css('background', '-webkit-linear-gradient(bottom, rgba(128, 183, 24, 0), rgba(128, 183, 24, 0) 60%, rgba(128, 183, 24, .5)');					
 			}
+			$('body').removeClass('move-back').addClass('move');
 		}
 	},
 	function() {
+		$('body').removeClass('move-back').addClass('move-back');
 		$('body').css('background', 'white');
 	}
 );

@@ -118,7 +118,7 @@
 #aboutMe.open {
 	display: block;
 	top: 50%;
-	-webkit-animation: open 3s;
+	-webkit-animation: open 2s;
 	color: rgba(0,0,0,1);
 }
 
@@ -147,4 +147,25 @@
 body {
 	height: 100vh;
 	font-family: 'Slabo 13px' serif;
+	background-size: 400% 400%
 }
+
+.move {
+	-webkit-animation: move 2s;
+}
+
+$-webkit-keyframes move {
+	from{background-position:49% 0%}
+    to{background-position:52% 100%}
+}
+
+.move-back {
+	-webkit-animation: move-back 2s;
+}
+$-webkit-keyframes move-back {
+	0%{background-position:52% 100%}
+    50%{background-position:49% 0%}
+}
+
+
+
